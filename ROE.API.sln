@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROE.DataAccess", "ROE.DataAccess\ROE.DataAccess.csproj", "{54DD16EA-C93B-41D3-A6B2-2C97E4583883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROE.Services", "ROE.Services\ROE.Services.csproj", "{3618F3B6-2C3D-4C14-A4D8-23F25628FC49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROE.API", "ROE.API\ROE.API.csproj", "{0B09706E-4599-4EC0-A68C-8D0366BCDC62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54DD16EA-C93B-41D3-A6B2-2C97E4583883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DD16EA-C93B-41D3-A6B2-2C97E4583883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DD16EA-C93B-41D3-A6B2-2C97E4583883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DD16EA-C93B-41D3-A6B2-2C97E4583883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3618F3B6-2C3D-4C14-A4D8-23F25628FC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3618F3B6-2C3D-4C14-A4D8-23F25628FC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3618F3B6-2C3D-4C14-A4D8-23F25628FC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3618F3B6-2C3D-4C14-A4D8-23F25628FC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B09706E-4599-4EC0-A68C-8D0366BCDC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B09706E-4599-4EC0-A68C-8D0366BCDC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B09706E-4599-4EC0-A68C-8D0366BCDC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B09706E-4599-4EC0-A68C-8D0366BCDC62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
