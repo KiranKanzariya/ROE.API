@@ -72,6 +72,22 @@ namespace ROE.DataAccess.Repository
             return model;
         }
 
+        public List<Product_Role> FetchAllProductRole()
+        {
+            List<Product_Role> model = new List<Product_Role>();
+            SqlParameter[] parameters = DBClient.GetSqlParameters();
+            DataSet dataSet = DBContext.ExecuteProcedure(databaseSettings.ConnectionString, "FetchAllProductRole", parameters);
+            if (dataSet != null && dataSet.Tables.Count > 0)
+            {
+                DataTable dt = dataSet.Tables[0].Copy();
+                if (dt != null && dt.Rows.Count > 0)
+                {
+                    model = DataTableExtensions.DataTableToList<Product_Role>(dt);
+                }
+            }
+            return model;
+        }
+
         public UserDTOModel GetUserByUserName(string userName)
         {
             UserDTOModel model = new UserDTOModel();

@@ -9,6 +9,8 @@ namespace ROE.Services.Contracts
 
         List<User> FetchAllUsers(int customerId);
 
+        List<Product_Role> FetchAllProductRole();
+
         UserDTOModel GetUserByUserName(string userName);
     }
 }

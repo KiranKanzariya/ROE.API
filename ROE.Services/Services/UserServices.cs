@@ -26,6 +26,12 @@ namespace ROE.Services.Services
             return users;
         }
 
+        public List<Product_Role> FetchAllProductRole()
+        {
+            List<Product_Role> roles = _userRepository.FetchAllProductRole();
+            return roles;
+        }
+
         public UserDTOModel GetUserByUserName(string userName)
         {
             UserDTOModel user = _userRepository.GetUserByUserName(userName);

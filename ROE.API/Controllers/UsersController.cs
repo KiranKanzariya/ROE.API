@@ -31,6 +31,18 @@ namespace ROE.API.Controllers
             return NotFound();
         }
 
+        [HttpGet]
+        [Route("FetchAllProductRole")]
+        public IActionResult FetchAllProductRole()
+        {
+            List<Product_Role> roles = _userServices.FetchAllProductRole();
+            if (roles?.Any() ?? false)
+            {
+                return Ok(roles);
+            }
+            return NotFound();
+        }
+
         [HttpPost]
         [Route("GetUserByEmail")]
         public IActionResult GetUserByEmail([FromBody] LoginModel model)
